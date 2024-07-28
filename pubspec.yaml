@@ -14,6 +14,11 @@ dependencies:
 
   # Utility Packages
   flutter_native_splash: ^2.4.1
+  dio: ^5.5.0+1
+  internet_connection_checker: ^1.0.0+1
+  retrofit: ^4.1.0
+  json_annotation: ^4.9.0
+  carousel_slider: ^4.2.1
 
   # Icons
   cupertino_icons: ^1.0.6
@@ -26,8 +31,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^3.0.0
+  retrofit_generator: ^8.1.2
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
 
 flutter:
   uses-material-design: true
